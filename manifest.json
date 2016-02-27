@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "TinyAcc Example Module",
+	"description": "A example module for TinyAccelerator",
+	"version": "1.0.0",
+	"icons": {
+		"128": "logo.png"
+	},
+	"options_page": "options/options.html",
+	"permissions": [
+		"storage"
+	],
+	"web_accessible_resources": [
+		"logo.png" //for showing logo in TinyAcc
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	}
+}
