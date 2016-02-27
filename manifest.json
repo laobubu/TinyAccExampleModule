@@ -11,7 +11,7 @@
 		"storage"
 	],
 	"web_accessible_resources": [
-		"logo.png" //for showing logo in TinyAcc
+		"logo.png"
 	],
 	"background": {
 		"scripts": [
