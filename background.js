@@ -1,6 +1,6 @@
 'use strict'
 
-const TinyAccelerator_ID = "khepfckcgmbgjgceoiliahnbidaodpjn"
+const TinyAccelerator_ID = "fiddpgbhifocnehnnmkaodlabdbdpbjh"
 const Profile = {
     id: "example",
     name: "TinyAcc Example Module",
