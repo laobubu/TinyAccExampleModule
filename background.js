@@ -13,6 +13,8 @@ const Profile = {
 function createInstance(request) {
     return new Promise(returnInstance => {
         
+        // Construct your instance here
+        
         var instance = {
             view: "You selected " + request.text,
             button: {
@@ -44,12 +46,6 @@ port.onMessage.addListener(function (msg) {
                     instance: instance
                 })
             }
-        })
-    }
-    else if (msg.type === "profile") {
-        port.postMessage({
-            type: "profile",
-            profile: Profile
         })
     }
 })
